@@ -1,0 +1,183 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background: black;
+        }
+        
+        .navbar {
+            display: flex;
+            height: 85px;
+            justify-content: space-between;
+            margin: 0 10vw;
+            z-index: 2;
+        }
+        
+        .logo {
+            margin-top: 22.5px;
+            height: 2.5rem;
+            width: 9.25rem;
+        }
+        
+        .navbar button {
+            background: red;
+            font-size: 1rem;
+            padding: 4px 16px;
+            color: white;
+            min-width: 80px;
+            font-weight: 400;
+            border: none;
+            border-radius: 5px;
+            margin-top: 4vh;
+            text-align: center;
+            height: 30px;
+        }
+        
+        .navbar button:hover {
+            background: rgb(207, 0, 0);
+        }
+        
+        .intro {
+            background-image: url('../images/background_image.jpeg');
+            background-position: center;
+            height: 90vh;
+            width: 100vw;
+            box-shadow: inset 110px 100px 120px black, inset -110px -100px 100px black;
+            z-index: 0;
+        }
+        
+        .details {
+            display: flex;
+            margin-top: -85px;
+            height: 90vh;
+            width: 100vw;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .details h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .details p {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        
+        .details h3 {
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+        
+        .email {
+            background-color: rgb(44, 44, 44);
+            opacity: 0.6;
+            border: 0.5px solid white;
+            border-radius: 5px;
+            height: 56px;
+            width: 30vw;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        
+        .email::placeholder {
+            color: white;
+        }
+        
+        .started {
+            background-color: red;
+            color: white;
+            height: 58px;
+            font-size: 24px;
+            border: none;
+            border-radius: 5px;
+            width: 13vw;
+            margin-top: 15px;
+        }
+        
+        .info {
+            display: flex;
+            width: 100vw;
+            height: auto;
+            border-top: 15px solid rgb(44, 44, 44);
+            padding: 4.5rem 0;
+        }
+        
+        .details1 {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-left: 10vw;
+            align-items: start;
+            justify-content: center;
+            text-align: left;
+        }
+        
+        h2 {
+            font-size: 3rem;
+            font-weight: 900;
+        }
+        
+        .details1 p {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin: 1rem 0 0;
+            text-align: left;
+        }
+        
+        .img {
+            margin-right: 7vw;
+        }
+        
+        .img1 {
+            margin-left: 10vw;
+        }
+        
+        .details2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            margin-left: 12vw;
+        }
+        
+        .details2 h2 {
+            font-size: 3rem;
+            font-weight: 900;
+            text-align: left;
+            max-width: 20ch;
+        }
+        
+        .details2 p {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin: 1rem 0 0;
+            text-align: left;
+            max-width: 40ch;
+        }
+        
+        .stranger {
+            max-width: 130%;
+            margin-left: 30px;
+        }
+        
+        .child {
+            width: 130%;
+            margin-top: 15%;
+        }
+        
+        .questions {
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            align-items: center;
+        }
